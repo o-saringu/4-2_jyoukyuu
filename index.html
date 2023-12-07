@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第4章変数　STEP2-上級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第４章変数　STEP2-上級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="4syou_2_jyoukyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<img src="4syou_2_jyoukyuu_kekka.png">
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,orループの中にforループを埋め込んで,正方形を階段状に表示するプログラムです.</p>
+	<p>(1)int型の変数をiとして初期値は0,iが12未満の場合実行し,iが1ずつ増加するようにしてください.</p>
+	<p>(2)int型の変数をjとして初期値は0,jがi以下の場合実行し,jが1ずつ増加するようにしてください.</p>
+	<p> 　 ただし(1),(2)ともi=i+1のような場合は、i++としなさい</p>
+	<p>(3)繰り返し実行されるコードとして,rect関数を１つだけ用いて,幅30高さ30の正方形を階段状に表示させるプログラムを埋めてください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(3)実行結果から正方形の基準点がどう変化すると,階段状になるかを考えましょう.</p>
+	
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+
+	<p>(1)(int i=0; i<12; i++)</p>
+	<p>(2)(int j=0; j<=i; j++)</p>
+	<p>(3)j*30, i*30, 30, 30</p>
+
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+
+	<script src = "main.js"></script>	
+</body>
+
+</html>
